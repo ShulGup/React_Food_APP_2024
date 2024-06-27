@@ -40,6 +40,7 @@ export default function Cart() {
       </ul>
       <p className="cart-total">{currencyFormatter.format(cardTotal)}</p>
       <p className="modal-actions">
+        <span>Button</span>
         <Button textOnly onClick={handleHideCard}>
           Close
         </Button>
