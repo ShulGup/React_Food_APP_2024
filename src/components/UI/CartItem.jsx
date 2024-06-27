@@ -4,6 +4,7 @@ import { currencyFormatter } from "../util/formatting";
 const CartItem = ({ name, quantity, price, onIncrease, onDecrease }) => {
   return (
     <li className="cart-item">
+      <p>CartItem</p>
       <p>
         {name} - {quantity} x {currencyFormatter.format(price)}
       </p>
